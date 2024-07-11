@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Inter";
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+img {
+padding: 5%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    padding: 20% 2%;
+    color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo_image {
+    width: 100px;
+    height: 50px;
+}
+.header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+   margin: 5% 5%;
+}
+#head1 {
+    font-size: 60px;
+}
+
+.top-button {
+    margin: 50px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.projects {
+    position: relative;
+}
+.project {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    width: 100%;
+}
+.project1 {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 100%;
+}
+.project2 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 100%;
+}
+.project3 {
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    width: 100%;
+}
+.links_foot {
+    color: white;
+    padding: 3%;
+}
